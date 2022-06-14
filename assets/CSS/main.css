@@ -1,0 +1,214 @@
+/* ======================
+        header section  
+========================*/
+.nav-section {
+    background: #343a40;
+}
+.collapse-item {
+    background: #343a40;
+}
+.nav-section .navbar-brand {
+    font-size:20px;
+    text-transform:capitalize;
+}
+.navbar-toggler:focus {
+    outline: 1px solid #fff!important;
+    border: 2px solid #000;
+    box-shadow:none;
+}
+.nav-section h4 {
+    color:var(--color1);
+    font-size: 24px;
+    font-weight: 500;
+}
+.underline a{
+    text-decoration: underline;
+}
+.underline a::before{
+    z-index: -1;
+}
+.underline a:hover::before{
+    z-index: -1;
+}
+
+/* ======================
+        header section  
+========================*/
+
+
+/* ======================
+        banner section  
+========================*/
+.banner-section {
+    background-image: url('../images/home3_de7hny__45_ffbj6k.png');
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    border-radius: 5px;
+}
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+.banner-inner {
+    max-width: 640px;
+    width: 100%;
+    text-align: center;
+}
+.banner-inner h1 {
+    font-size: 40px;
+}
+.banner-inner p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    padding: 0px 15px;
+}
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.icons a {
+    color: var(--color4);
+    background-color: var(--color5);
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin: 2px;
+}
+.icons a:hover, .icons a:hover i {
+    color: var(--color3);
+}
+/* ======================
+        banner section  
+========================*/
+
+/* ======================
+    experience section  
+========================*/
+.experience-section {
+    background-image: url('../images/jProfile_xi9ouv.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    padding-top: 15px;
+}
+.experience-section .container {
+    max-width: 100%;
+}
+.bio p {
+    margin: 10px;
+    color: var(--color6);
+}
+.my-img {
+    width: 160px;
+    height: 160px;
+    float: right;
+    margin: 5%;
+}
+.my-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+/* ======================
+    experience section  
+========================*/
+
+/* ======================
+      project section  
+========================*/
+.project-section {
+    background: var(--color7);
+    padding: 48px 0px;
+}
+.project-wrap {
+    background: var(--color1);
+    border-radius: 5px;
+    padding: 15px 15px 0 15px;
+}
+/* .project-wrap .single-project {
+    background: var(--color1);
+    height:100%;
+    border-radius: 5px;
+    padding: 15px 15px 0 15px;
+    box-sizing: border-box;
+} */
+.single-project {
+    margin-bottom: 15px;
+}
+.single-project img {
+    width: 100%;
+    margin-bottom: 12px;
+}
+.project-text p {
+    color: var(--color9);
+}
+.diff-style {
+    color: var(--color8);
+    font-weight: 600;
+}
+.project-text a {
+    color:var(--color1);
+    background: var(--color10);
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+.project-text a:hover {
+    background: var(--color11);
+}
+.show-more-btn a {
+    color: var(--color12);
+    float: right;
+    margin: 1px 22px 0 0;
+}
+/* ======================
+      project section  
+========================*/
+
+/* ======================
+       footer section  
+========================*/
+.footer-section {
+    padding: 48px 0px;
+}
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-text p {
+    color: var(--color9);
+}
+.footer-text img {
+    width: 20px;
+}
+.footer-icon a i {
+    background: var(--color10);
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.footer-icon a:hover i {
+    background: var(--color3);
+    transform: translateY(-5px);
+}
+/* ======================
+       footer section  
+========================*/
+
+/* ======================
+        nav section  
+========================*/
+/* ======================
+        nav section  
+========================*/
